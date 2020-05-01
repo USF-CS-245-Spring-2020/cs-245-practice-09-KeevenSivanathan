@@ -5,8 +5,9 @@ public interface Graph {
 	
 	// Eventually, our graphs will include more functions than this
 	// ... but let's start here.
-	public void addEdge(int v1, int v2) throws Exception;
+	public void addEdge(int v1, int v2);
 	public List<Integer> topologicalSort();
-	public List<Integer> neighbors(int vertex) throws Exception;
+	public List<Integer> neighbors(int vertex);
+
 
 }
